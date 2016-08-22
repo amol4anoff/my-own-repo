@@ -1,0 +1,13 @@
+{
+  "name": "org-env-1",
+  "containers": [
+    {
+      "size": "tiny",
+      "templateName": "master",
+      "name": "sydyk-1-test",
+      "templateId": "a697e70f3fc538b4f4763588a7868388"
+    }
+  ]
+}
+
+
