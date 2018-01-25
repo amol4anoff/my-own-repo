@@ -4,7 +4,7 @@
   "description": "Blueprint to test peer-criteria parameters",
   "containers": [
     {
-      "name": "apache",
+      "hostname": "apache",
       "template": "apache",
       "peer-criteria": "apache",
       "size": "MEDIUM"
