@@ -11,7 +11,7 @@
   ],
   "peer-criteria": [
     {
-      "name": "HAZELCAST+TOMCAT-GROUP",
+      "name": "apache",
       "max-price": "20",
       "avg-cpu-load": "50",
       "min-free-ram": "128",
