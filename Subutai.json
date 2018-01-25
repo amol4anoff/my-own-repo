@@ -1,6 +1,7 @@
 {
   "name": "test-peer-criteria",
   "description": "Blueprint to test peer-criteria parameters",
+  "version": "1.0.1",
   "containers": [
     {
       "hostname": "apache",
