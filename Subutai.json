@@ -1,6 +1,6 @@
 {
-  "name": "test-peer-criteria",
-  "description": "Blueprint to test peer-criteria parameters",
+  "name": "${env-name}",
+  "description": "Test blueprint with minimum parameters",
   "version": "1.0.1",
   "author": "Zubaidullo",
   "containers": [
@@ -20,5 +20,12 @@
       "min-free-disk-space": "10"
     }
   ],
-  "configuration": {}
+  "configuration": {},
+  "user-variables": {
+    "env-name": {
+      "description": "Enter your environment name",
+      "type": "string",
+      "default": "simpleEnvironment",
+      "validation": "[a-zA-Z0-9]+"
+    }}
 }
