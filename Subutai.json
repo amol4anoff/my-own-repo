@@ -1,5 +1,5 @@
 {
-  "name": "${env-name}",
+  "name": "${envname}",
   "description": "Test blueprint with minimum parameters",
   "version": "1.0.1",
   "author": "Zubaidullo",
@@ -22,7 +22,7 @@
   ],
   "configuration": {},
   "user-variables": {
-    "env-name": {
+    "envname": {
       "description": "Enter your environment name",
       "type": "string",
       "default": "simpleEnvironment",
