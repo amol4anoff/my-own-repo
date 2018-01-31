@@ -20,7 +20,7 @@
       "min-free-disk-space": "10"
     }
   ],
-  "configuration": {},
+  "ansible-configuration": {},
   "user-variables": {
     "envname": {
       "description": "Enter your environment name",
