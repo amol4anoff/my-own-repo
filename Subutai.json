@@ -5,7 +5,7 @@
   "author": "Zubaidullo",
   "containers": [
     {
-      "hostname": "apache",
+      "hostname": "${apache}",
       "template": "apache",
       "peer-criteria": "apache",
       "size": "MEDIUM"
